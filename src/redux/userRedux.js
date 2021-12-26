@@ -19,9 +19,9 @@ const userSlice = createSlice({
             state.isFatching = false;
             state.error = true;
         },
-        logout: state => {
-            state.currentUser = null;
-        },
+        // logout: state => {
+        //     state.currentUser = null;
+        // },
     },
 });
 
